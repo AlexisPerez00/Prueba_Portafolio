@@ -7,31 +7,33 @@
 }
 
 body {
-    background-image: ) ;
+    background-color: rgb(26, 27, 70);
+    
+    
 }
 
 .menu-container {
     font-family: 'Cormorant Unicase', serif;
     font-style: 600;
     position: fixed;
-    background-color: rgb(77, 32, 0);
+    background-color: rgb(22, 19, 32);
     color: rgb(235, 235, 235);
     width: 100%;
     padding: 5px;
 
 }
 
-h3 {
+h1 {
     float: left;
 }
 
 
 
-/*@media screen and (max-width: 740px) {
-    button {
-        display: none;
+@media screen and (max-width: 740px) {
+    body {
+        background-size: 100vh 100vw;
     }
-}*/
+}
 
 #boton-menu {
     display: none;
