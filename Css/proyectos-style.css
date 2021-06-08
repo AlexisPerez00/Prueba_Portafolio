@@ -1,0 +1,25 @@
+
+h2 {
+    width: 100%;
+    background-color: rgb(22, 19, 32);
+}
+
+.img {
+    background-color: rgb(22, 19, 32);
+    width: 90%;   
+    height: auto;
+}
+
+img {
+    margin-bottom: 40px;
+}
+
+h3 {
+    font-size: 20px;
+    margin: 5px;
+    font-family: 'Cormorant Unicase', serif;
+    font-style: italic;
+    color: rgb(248, 206, 143);
+    padding-top: 20px;
+}
+

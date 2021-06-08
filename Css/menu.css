@@ -1,41 +1,71 @@
+#botonMenu {
+    display: none;
+}
+
+
 
 
 .icon-menu {
     background: none;
-    cursor: pointer;
     float: right;
+    cursor: pointer;
     padding: 3px;
-    font-size: 20px;
+    font-size: 25px;
     color: rgb(235, 235, 235);
+    z-index: 1;
 
 }
 
 
+
 .menu {
-    position: absolute;
-    top: 32px;
+    position: fixed;
+    top: 50px;
     right: 0;
     width: 50%;
-    height: 50vh;
-    background-color: rgb(0, 15, 102);
-    transition: all 1s;
+    background-color: rgb(22, 19, 32);
+    transition: all .8s;
     transform: translateX(100%);
+    z-index: 1;
 }
 
 
 .menu a {
     color: rgb(214, 198, 198);
     display: block;
-    height: 72px;
     text-decoration: none;
     padding: 20px;
-    border-bottom: ghostwhite;
+    font-family: 'Libre Baskerville', serif;
+    border-bottom: 1px solid white ;
 }
 
 .menu a:hover {
-    background: rgb(191, 100, 31, 4);
+    background-color: darkblue;
 }
 
-#boton-menu:checked ~ .menu {
+#botonMenu:checked ~ .menu {
+    transition: all .8s;
     transform: translateX(0%);
+    
 }
+
+
+@media screen and (min-width: 1024px) {
+    .menu {
+        position: static;
+        width: auto;
+        height: 45px;
+        transform: translateX(0%);
+        display: flex;
+        float: right;
+    }
+
+    .menu a {
+        border: none;
+    }
+
+    .icon-menu {
+        display: none;
+    }
+}
+    

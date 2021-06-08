@@ -1,0 +1,100 @@
+@import url(menu.css);
+@import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(235, 235, 235);
+}
+
+body {
+    background-color: rgb(26, 27, 70);
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(22, 19, 32);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+
+}
+
+.menu-container {
+    font-family: 'Cormorant Unicase', serif;
+    align-items: center;
+    margin: auto;
+    width: 98%;
+    padding: 5px;
+    display: table;
+}
+
+h1 {
+    float: left;
+}
+
+.entrada {
+    font-family: 'Petit Formal Script', cursive;    position: relative;
+    color: rgb(253, 252, 250);
+    background-color: rgb(22, 19, 32);
+    padding: 15px;
+    
+}
+
+.subtemas {
+    color: rgb(248, 246, 246);
+    text-shadow: 2px 0 0 rgb(155, 163, 2), -2px 0 0;
+    padding: 15px;
+    border: 1px solid darkblue;
+    box-shadow: 3px 3px 10px darkblue;
+}
+
+
+
+
+.principal  {
+    top: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Cormorant Unicase 600', serif;
+}
+
+
+.img {
+    width: 60%;
+    margin: 20px;
+
+}
+
+img {
+    max-width: 100%;
+    border: 5px solid rgb(58, 58, 57);
+    box-shadow: 5px 5px 10px rgb(51, 51, 50) ;
+    border-radius: 10px;
+}
+
+.datos {
+    font-size: 15px;
+    font-family: 'Libre Baskerville', serif;
+    background-color: rgb(22, 19, 32);
+    padding: 20px ;
+    width: 100%;
+}
+
+.datos h3 {
+    font-size: 20px;
+    margin: 5px;
+    font-family: 'Cormorant Unicase', serif;
+    font-style: italic;
+    color: rgb(248, 206, 143);
+    padding-top: 20px;
+}
+
+
